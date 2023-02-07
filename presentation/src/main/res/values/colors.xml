@@ -10,9 +10,10 @@
 
     <color name="main_top_textView">#155A03</color>
     <color name="main_background">#FCFBFA</color>
-    <color name="main_text_before">#BBD8B1</color>
+    <color name="main_text_before">#BAD8B1</color>
     <color name="main_text_After">#79B669</color>
-    <color name="main_next_button">#79B669</color>
+    <color name="main_next_button_After">#79B669</color>
+    <color name="main_next_button_Before">#BAD8B1</color>
     <color name="main_btn">#EEEEEE</color>
     <color name="go_to_register">#979797</color>
     <color name="main_sub_color">#AAAAAA</color>
