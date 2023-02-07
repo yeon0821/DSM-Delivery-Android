@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Textview_frame" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/main_font</item>
+        <item name="android:textFontWeight">700</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/main_top_textView</item>
+    </style>
+
+    <style name="TextView_register_phoneNumber" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/main_font</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="android:textColor">@color/main_sub_color</item>
+    </style>
+
+
+    <style name="EditText_frame" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">360dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/main_sub_color</item>
+        <item name="android:background">@drawable/et_frame</item>
+        <item name="android:importantForAutofill">no</item>
+        <item name="android:fontFamily">@font/main_font</item>
+        <item name="android:textFontWeight">600</item>
+    </style>
+
+
+    <style name="go_back_button" parent="Widget.AppCompat.ImageButton">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:background">@drawable/back_button</item>
+    </style>
+
+    <style name="main_text_before" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">360dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/main_font</item>
+        <item name="android:textFontWeight">600</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/main_text_before</item>
+        <item name="android:background">@drawable/main_button_frame</item>
+    </style>
+
+
+    <style name="marin_text_After" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">360dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/main_font</item>
+        <item name="android:textFontWeight">600</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/main_text_After</item>
+        <item name="android:background">@drawable/main_button_frame</item>
+    </style>
+
+    <style name="go_to_register" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/main_font</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/go_to_register</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <style name="main_next_button" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">360dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textFontWeight">600</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/main_font</item>
+        <item name="backgroundTint">@color/main_next_button</item>
+        <item name="android:background">@drawable/main_button_frame</item>
+    </style>
+
+    <style name="main_error_message" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/main_error_message</item>
+        <item name="fontWeight">400</item>
+        <item name="fontFamily">@font/main_font</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+
+</resources>
