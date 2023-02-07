@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = ProjectProperties.NAME_SPACE
-    compileSdk = 30
+    compileSdk = ProjectProperties.COMPILE_SDK
 
     defaultConfig {
         applicationId = ProjectProperties.NAME_SPACE
@@ -56,15 +56,6 @@ android {
 dependencies {
 
 
-    implementation(Dependency.COMPOSE.VIEWMODEL)
-    implementation(Dependency.COMPOSE.ACTIVITY)
-    implementation(Dependency.COMPOSE.UI)
-    implementation(Dependency.COMPOSE.PREVIEW)
-    implementation(Dependency.COMPOSE.MATERIAL)
-    implementation(Dependency.COMPOSE.NAVIGATION)
-    androidTestImplementation(Dependency.COMPOSE.JUNIT)
-    debugImplementation(Dependency.COMPOSE.UI_TOOLING)
-    debugImplementation(Dependency.COMPOSE.UI_TEST)
 
     implementation(Dependency.GLIDE.GLIDE)
 

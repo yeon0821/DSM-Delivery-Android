@@ -1,10 +1,9 @@
 object Version {
     const val CONSTRAINT_LAYOUT = "2.1.4"
-    const val CORE_KTX = "1.5.0"
+    const val CORE_KTX = "1.7.0"
     const val APP_COMPAT = "1.6.0"
-    const val ACTIVITY_KTX = "1.2.3"
-    const val FRAGMENT_KTX = "1.3.4"
-    const val LIFECYCLE_KTX = "2.3.1"
+    const val ACTIVITY_KTX = "1.6.1"
+    const val FRAGMENT_KTX = "1.5.5"
 
     const val MATERIAL = "1.3.0"
 
@@ -24,11 +23,6 @@ object Version {
     const val HILT_GRADLE = "2.28-alpha"
     const val LIBRARY = "7.3.0"
 
-    const val COMPOSE_LIFECYCLE = "2.5.1"
-    const val COMPOSE_ACTIVITY = "1.6.1"
-    const val COMPOSE_UI = "1.3.3"
-    const val COMPOSE_MATERIAL = "1.3.1"
-    const val COMPOSE_NAVIGATON = "2.5.3"
 
     const val SPLASH_SCREEN_VERSION = "1.0.0-beta01"
 
