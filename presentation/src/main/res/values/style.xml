@@ -75,16 +75,28 @@
     </style>
 
 
-    <style name="main_next_button" parent="Widget.AppCompat.Button">
+    <style name="main_next_button_After" parent="Widget.AppCompat.Button">
         <item name="android:layout_width">360dp</item>
         <item name="android:layout_height">50dp</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textFontWeight">600</item>
         <item name="android:textStyle">bold</item>
         <item name="fontFamily">@font/main_font</item>
-        <item name="backgroundTint">@color/main_next_button</item>
+        <item name="backgroundTint">@color/main_next_button_After</item>
         <item name="android:background">@drawable/main_button_frame</item>
     </style>
+
+    <style name="main_next_button_Before" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">360dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textFontWeight">600</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/main_font</item>
+        <item name="backgroundTint">@color/main_next_button_Before</item>
+        <item name="android:background">@drawable/main_button_frame</item>
+    </style>
+
 
     <style name="main_error_message" parent="Widget.AppCompat.TextView">
         <item name="android:layout_width">wrap_content</item>
