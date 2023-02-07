@@ -2,9 +2,7 @@ object ProjectProperties {
 
 
         const val NAME_SPACE = "com.example.dsm_delivery"
-//        const val NAME_SPACE_DI = "com.jobis.di"
-//        const val NAME_SPACE_DATA = "com.jobis.data"
-//        const val NAME_SPACE_DOMAIN = "com.jobis.domain"
+
 
         const val COMPILE_SDK = 33
 
