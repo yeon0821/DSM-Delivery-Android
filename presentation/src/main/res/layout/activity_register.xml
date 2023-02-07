@@ -27,7 +27,7 @@
             android:id="@+id/et_register_id"
             style="@style/EditText_frame"
             android:layout_marginTop="15dp"
-            android:hint="@string/text_id"
+            android:hint="@string/text_password"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_sign_up" />
@@ -52,7 +52,7 @@
 
 
         <Button
-            style="@style/main_next_button"
+            style="@style/main_next_button_After"
             android:layout_marginBottom="45dp"
             android:text="@string/btn_next"
             app:layout_constraintBottom_toBottomOf="parent"
