@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dsm_Delivery</string>
+
+
+    <string name="Login">Sign in</string>
+    <string name="Register">Sign up</string>
+
+    <string name="btn_Login">로그인</string>
+    <string name="btn_next">다음</string>
+
+    <string name="text_id">아이디</string>
+    <string name="text_password">비밀번호</string>
+    <string name="text_phoneNumber">전화번호</string>
+    <string name="sign_in_go_to_register">회원이 아니신가요? <u>회원가입</u></string>
+    <string name="text_send_number">입력한 전화번호로 인증번호를 전송했습니다</string>
+    
+    
+    <string name="sign_up_id_error_message">이미 등록된 아이디 입니다.</string>
+    <string name="sign_up_phone_number_error_message">이미 등록된 전화번호 입니다.</string>
+</resources>
