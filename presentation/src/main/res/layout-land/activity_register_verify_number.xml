@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            style="@style/go_back_button"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="70dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tv_sign_up"
+            style="@style/Textview_frame"
+            android:text="@string/Register"
+            android:layout_marginTop="125dp"
+            android:layout_marginStart="26dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/TextView_register_phoneNumber"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/text_send_number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_sign_up" />
+
+
+        <com.alimuzaffar.lib.pin.PinEntryEditText
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:cursorVisible="false"
+            android:inputType="number"
+            android:layout_marginTop="36dp"
+            android:layoutDirection="ltr"
+            android:padding="11dp"
+            android:maxLength="4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:pinAnimationType="popIn"
+            app:pinBackgroundDrawable="@drawable/pin_edit"
+            app:pinBackgroundIsSquare="true" />
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
