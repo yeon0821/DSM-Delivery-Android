@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_sign_in"
+            style="@style/Textview_frame"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="125dp"
+            android:text="@string/Login"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/et_sign_in_id"
+            style="@style/EditText_frame"
+            android:layout_marginTop="15dp"
+            android:hint="@string/text_id"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_sign_in" />
+
+
+        <EditText
+            android:id="@+id/et_sign_in_password"
+            style="@style/EditText_frame"
+            android:layout_marginTop="15dp"
+            android:hint="@string/text_password"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_sign_in_id" />
+
+        <Button
+            android:id="@+id/btn_sign_in"
+            style="@style/main_text_before"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/main_button_frame"
+            android:backgroundTint="@color/main_text_before"
+            android:text="@string/btn_Login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_sign_in_password" />
+
+        <TextView
+            android:id="@+id/tv_sign_in_go_to_register"
+            style="@style/go_to_register"
+            android:layout_marginTop="15dp"
+            android:text="@string/sign_in_go_to_register"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_sign_in" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
