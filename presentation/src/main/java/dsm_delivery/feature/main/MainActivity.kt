@@ -1,4 +1,4 @@
-package com.example.dsm_delivery.feature.main
+package dsm_delivery.feature.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
