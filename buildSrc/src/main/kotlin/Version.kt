@@ -22,6 +22,7 @@ object Version {
     const val KOTLIN_GRADLE = "1.6.10"
     const val HILT_GRADLE = "2.28-alpha"
     const val LIBRARY = "7.3.0"
+    const val COROUTINES_TEST = "1.6.4"
 
 
     const val SPLASH_SCREEN_VERSION = "1.0.0-beta01"
