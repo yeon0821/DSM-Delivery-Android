@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Dsm_Delivery"
 include(":presentation")
+include(":domain")
+include(":di")
+include(":data")
