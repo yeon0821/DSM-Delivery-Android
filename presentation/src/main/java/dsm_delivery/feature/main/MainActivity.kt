@@ -2,8 +2,7 @@ package dsm_delivery.feature.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.dsm_delivery.R
-
+import dsm_delivery.R
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

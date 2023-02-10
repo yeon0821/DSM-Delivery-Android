@@ -1,10 +1,19 @@
+import org.gradle.api.JavaVersion
+
 object ProjectProperties {
 
 
-        const val NAME_SPACE = "com.example.dsm_delivery"
+        const val NAME_SPACE = "dsm_delivery"
+        const val NAME_SPACE_DOMAIN = "dsm_delivery_domain"
+        const val NAME_SPACE_DI = "dsm_delivery_di"
+        const val NAME_SPACE_DATA = "dsm_delivery_data"
 
+        val JAVA_VERSION = JavaVersion.VERSION_11
 
         const val COMPILE_SDK = 33
+        const val MIN_SDK_VERSION = 26
+
+        const val KOTLINX_COROUTINES  = "1.3.9"
 
         const val VERSION_CODE = 1
         const val VERSION_NAME = "1.0"

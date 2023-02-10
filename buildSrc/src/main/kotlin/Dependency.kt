@@ -33,10 +33,18 @@ object Dependency {
     object HILT {
         const val HILT = "com.google.dagger:hilt-android:${Version.HILT}"
         const val HILT_COMPILER = "com.google.dagger:hilt-android-compiler:${Version.HILT}"
+        const val INJECT = "javax.inject:javax.inject:1"
     }
 
     object GLIDE {
         const val GLIDE = "com.github.bumptech.glide:glide:${Version.GLIDE}"
+    }
+
+    object KOTLIN {
+        const val COROUTINES_CORE = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${ProjectProperties.KOTLINX_COROUTINES}"
+        const val COROUTINES_ANDROID = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${ProjectProperties.KOTLINX_COROUTINES}"
+        const val COROUTINES_TEST = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Version.COROUTINES_TEST}"
+
     }
 
 
