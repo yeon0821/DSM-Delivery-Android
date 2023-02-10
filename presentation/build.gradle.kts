@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = ProjectProperties.NAME_SPACE
-        minSdk = ProjectProperties.COMPILE_SDK
+        minSdk = ProjectProperties.MIN_SDK_VERSION
         targetSdk = ProjectProperties.COMPILE_SDK
         versionCode = ProjectProperties.VERSION_CODE
         versionName = ProjectProperties.VERSION_NAME
@@ -33,11 +33,11 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = ProjectProperties.JAVA_VERSION
+        targetCompatibility = ProjectProperties.JAVA_VERSION
     }
     kotlinOptions {
-        jvmTarget = ProjectProperties.JVM_VERSION
+        jvmTarget = ProjectProperties.JVM_VERSION.toString()
     }
     buildFeatures {
         dataBinding = true
@@ -55,6 +55,8 @@ android {
 dependencies {
 
 
+    implementation(project(":domain"))
+    implementation(project(":di"))
 
     implementation(Dependency.GLIDE.GLIDE)
 
