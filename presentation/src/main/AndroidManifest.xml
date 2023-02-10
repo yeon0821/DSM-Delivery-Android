@@ -9,10 +9,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Dsm_Delivery"
-        tools:targetApi="31">
+        android:theme="@style/Theme.Dsm_Delivery">
         <activity
-            android:name=".feature.main.MainActivity"
+            android:name="dsm_delivery.feature.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
