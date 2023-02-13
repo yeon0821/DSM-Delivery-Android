@@ -8,10 +8,10 @@ object ProjectProperties {
         const val NAME_SPACE_DI = "dsm_delivery_di"
         const val NAME_SPACE_DATA = "dsm_delivery_data"
 
-        val JAVA_VERSION = JavaVersion.VERSION_11
+        val JAVA_VERSION = JavaVersion.VERSION_1_8
 
         const val COMPILE_SDK = 33
-        const val MIN_SDK_VERSION = 26
+        const val MIN_SDK_VERSION = 29
 
         const val KOTLINX_COROUTINES  = "1.3.9"
 
