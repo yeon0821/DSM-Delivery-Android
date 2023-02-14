@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = ProjectProperties.NAME_SPACE_DOMAIN
+    namespace = "dsm.delivery.domain"
     compileSdk = ProjectProperties.COMPILE_SDK
 
     defaultConfig {
@@ -42,4 +42,5 @@ dependencies {
     implementation(Dependency.KOTLIN.COROUTINES_ANDROID)
 
     implementation(Dependency.TEST.JUNIT)
+    implementation(Dependency.TEST.EXT_JUNIT)
 }
