@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = ProjectProperties.NAME_SPACE_DATA
+    namespace = "dsm.delivery.data"
     compileSdk = ProjectProperties.COMPILE_SDK
 
     defaultConfig {
@@ -28,8 +28,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = ProjectProperties.JAVA_VERSION
+        targetCompatibility = ProjectProperties.JAVA_VERSION
     }
     kotlinOptions {
         jvmTarget = ProjectProperties.JVM_VERSION.toString()

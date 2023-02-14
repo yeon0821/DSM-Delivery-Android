@@ -1,11 +1,14 @@
-package dsm_delivery.feature.main
+package presentation.feature.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import dsm_delivery.R
+import dsm.delivery.presentation.R
+
+
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register_verify_number)
+        setContentView(R.layout.activity_main)
     }
 }

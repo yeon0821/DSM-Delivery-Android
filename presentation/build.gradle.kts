@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = ProjectProperties.NAME_SPACE
+    namespace = "dsm.delivery.presentation"
     compileSdk = ProjectProperties.COMPILE_SDK
 
     defaultConfig {
@@ -32,6 +32,7 @@ android {
         }
     }
 
+
     compileOptions {
         sourceCompatibility = ProjectProperties.JAVA_VERSION
         targetCompatibility = ProjectProperties.JAVA_VERSION
@@ -47,7 +48,7 @@ android {
     }
     packagingOptions {
         resources {
-            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            exclude("META-INF/gradle/incremental.annotation.processors")
         }
     }
 }
