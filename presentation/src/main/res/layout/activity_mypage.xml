@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btn_go_back"
+            style="@style/go_back_button"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="70dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_mypage_top"
+            style="@style/mypage_top_frame"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_go_back">
+
+
+            <ImageView
+                android:id="@+id/mypage_user_profile"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:shadowRadius="5"
+                android:background="@drawable/img_basics_profile"/>
+
+            <TextView
+                android:id="@+id/tv_mypage_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="김연우"
+                android:textFontWeight="500"
+                android:fontFamily="@font/main_font"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="85dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="라이더가 된지 120일째"
+                android:textFontWeight="500"
+                android:fontFamily="@font/main_font"
+                android:textColor="@color/main_sub_color"
+                android:layout_marginTop="47dp"
+                android:layout_marginStart="85dp"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_mypage_middle"
+            android:layout_width="360dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cv_mypage_top">
+
+
+            <TextView
+                android:id="@+id/tv_mypage_riding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/riding"
+                android:textColor="@color/black"
+                android:textFontWeight="500"
+                android:textSize="14sp" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_mypage_riding"
+                android:layout_width="310dp"
+                android:layout_height="190dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cv_mypage_middle">
+
+
+            <TextView
+                android:id="@+id/tv_mypage_rider_setting"
+                style="@style/tv_mypage_settings"
+                android:text="@string/rider_setting"
+                android:layout_margin="20dp"/>
+
+            <ImageView
+                android:id="@+id/iv_setting_frame"
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/img_mypage_settings_frame"/>
+
+            <TextView
+                android:id="@+id/tv_mypage_giving_stars"
+                style="@style/tv_mypage_settings"
+                android:text="@string/giving_stars"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="20dp"/>
+
+            <ImageView
+                android:id="@+id/iv_setting_frame2"
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="96dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/img_mypage_settings_frame"/>
+
+            <TextView
+                android:id="@+id/tv_mypage_dsm_delivery_setting"
+                style="@style/tv_mypage_settings"
+                android:text="@string/dsm_delivery_setting"
+                android:layout_marginTop="102dp"
+                android:layout_marginStart="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

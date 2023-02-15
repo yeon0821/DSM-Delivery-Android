@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Dsm_Delivery</string>
+    <string name="app_name">DD</string>
 
 
     <string name="Login">Sign in</string>
@@ -7,7 +7,12 @@
 
     <string name="btn_Login">로그인</string>
     <string name="btn_next">다음</string>
-
+    
+    <string name="riding">진행 중인 라이딩</string>
+    <string name="rider_setting">라이더 설정</string>
+    <string name="giving_stars">별점 주기</string>
+    <string name="dsm_delivery_setting">DSM Delivery 환경설정</string>
+    
     <string name="text_id">아이디</string>
     <string name="text_password">비밀번호</string>
     <string name="text_check_password">비밀번호 확인</string>

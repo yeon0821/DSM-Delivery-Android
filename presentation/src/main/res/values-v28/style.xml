@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextView_register_phoneNumber" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/main_font</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="android:textColor">@color/main_sub_color</item>
+    </style>
+</resources>
