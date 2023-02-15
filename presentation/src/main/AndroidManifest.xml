@@ -12,8 +12,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.Dsm_Delivery"
-        tools:targetApi="tiramisu">
+        android:theme="@style/Theme.Dsm_Delivery">
         <activity
             android:name="presentation.feature.main.MainActivity"
             android:exported="true">
