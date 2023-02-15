@@ -9,6 +9,10 @@ android {
     namespace = "dsm.delivery.presentation"
     compileSdk = ProjectProperties.COMPILE_SDK
 
+    lint{
+        baseline = file("lint-baseline.xml")
+    }
+
     defaultConfig {
         applicationId = ProjectProperties.NAME_SPACE
         minSdk = ProjectProperties.MIN_SDK_VERSION
