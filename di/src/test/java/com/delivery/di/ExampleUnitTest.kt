@@ -1,4 +1,4 @@
-package com.example.di
+package com.delivery.di
 
 import org.junit.Test
 
