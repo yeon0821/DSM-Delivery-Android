@@ -1,4 +1,4 @@
-package com.example.dsm_delivery
+package com.delivery
 
 import org.junit.Test
 
